@@ -50,18 +50,6 @@ body {
     margin-bottom: 15px;
 }
 
-.entry .category {
-    display: inline;
-}
-
-.entry .category a {
-    color:#666;
-}
-
-.entry .category a:hover {
-    text-decoration: underline;
-}
-
 .entry .content {
     text-shadow: 1px 1px 0 rgba(255, 255, 255, 0.5);
     overflow: hidden;
@@ -132,5 +120,13 @@ a {
 a:hover {
     color:#E60900;
     border-bottom: none;
+}
+
+.big404 {
+    text-align: center;
+    font-size: 50px;
+    font-weight: bold;
+    margin-top: 40px;
+    margin-bottom: 45px;
 }
 
