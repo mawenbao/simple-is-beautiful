@@ -28,24 +28,8 @@ body {
     height:0
 }
 
-.entry {
-    margin-bottom: 130px;
-    border-radius: 5px;
-}
-
-.entry .title_container {
-    text-align: left;
-    font-weight: bold;
-    margin:15px 0 35px 0;
-    font-size: 12px;
-}
-
-.entry .title_container a {
-    color: #333;
-}
-
-.entry .title_container a:hover {
-    color:#222;
+.title-container {
+    text-align: center;
 }
 
 .entry .title {

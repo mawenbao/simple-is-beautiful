@@ -9,11 +9,13 @@
 
 {% for post in (articles_page.object_list if articles_page else articles) %}
     <div class="entry">
-        <div class="title">
+        <div class="title-container">
+            <div class="title">
             {{ post.title }}
-        </div>
-        <div class="title-date">
+            </div>
+            <div class="title-date">
             {{ post.date.strftime("%Y-%m-%d") }} 
+            </div>
         </div>
         <div class="content">
             {% set content = post.content %}
