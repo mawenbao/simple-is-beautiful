@@ -1,4 +1,10 @@
-{% extends base.html %}
+{% extends "base.html" %}
+{% block header %}
+<h1 class="header">
+    {{ SITENAME }}
+</h1>
+{% endblock header %}
+
 {% block content %}
 
 {% for post in (articles_page.object_list if articles_page else articles) %}
