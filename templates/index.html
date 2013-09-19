@@ -1,9 +1,7 @@
 {% extends "base.html" %}
-{% block header %}
-<h1 class="header">
-    {{ SITENAME }}
-</h1>
-{% endblock header %}
+{% block title %}
+{{ articles_page.object_list[0].title }} - {{ super() }} 
+{% endblock title %}
 
 {% block content %}
 

@@ -17,9 +17,9 @@ body {
     line-height:1.7em;
     color:#666;
     -webkit-text-size-adjust:none;
-    width:450px;/*730*/
+    max-width:450px;/*730*/
     margin:0 auto;
-    padding-top: 60px;
+    padding-top: 40px;
 }
 
 .clear {
@@ -30,6 +30,10 @@ body {
 
 .title-container {
     text-align: center;
+}
+
+.entry {
+    margin-bottom: 45px;
 }
 
 .entry .title {
@@ -111,7 +115,6 @@ body {
 }
 
 .footer {
-    margin-top: 100px;
     margin-bottom: 20px;
     text-align: center;
 }
