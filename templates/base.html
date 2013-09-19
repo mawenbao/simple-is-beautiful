@@ -1,0 +1,28 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN"
+        "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <title>{% block title %}{{ SITENAME }}{% endblock title %}</title>
+    <link rel="shortcut icon" type="image/x-icon" href="{{ FAVICON_URL | default('/favicon.png') }}">
+    <link href="{{ SITEURL}}/theme/css/style.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body>
+{% block content %}
+{% endblock content %}
+{% block footer %}
+
+<div class="footer">
+    <p>
+    Powered by <a href="https://github.com/getpelican/pelican">pelican</a>, theme inspired by the <a href="https://github.com/hepochen/farbox-templates">simple template</a> of farbox.
+    </p>
+    <p>
+        <a href="http://creativecommons.org/licenses/by-sa/3.0/deed.zh">CC BY-SA 3.0</a> |
+        <a href="http://notes.atime.me/about.html">About</a> 
+    </p>
+</div>
+
+{% endblock footer %}
+</body>
+</html>
